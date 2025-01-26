@@ -61,7 +61,8 @@ group :development do
   # gem "spring"
 
   gem "letter_opener_web"
-  gem 'faker', require: false
+  gem "faker", require: false
+  gem "rubocop-rails-omakase", require: false
 end
 
 group :test do
@@ -78,3 +79,4 @@ gem "devise"
 gem "activestorage-validator"
 # Waiting for https://github.com/alexreisner/geocoder/issues/1642 to be released
 gem "geocoder", github: "alexreisner/geocoder"
+gem "rubocop", require: false

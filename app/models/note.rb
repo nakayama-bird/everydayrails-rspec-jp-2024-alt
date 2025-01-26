@@ -16,6 +16,6 @@ class Note < ApplicationRecord
     "image/jpeg",
     "image/gif",
     "image/png",
-    "application/pdf",
-  ]}
+    "application/pdf"
+  ] }
 end
