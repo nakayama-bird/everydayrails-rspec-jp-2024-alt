@@ -18,7 +18,7 @@ FactoryBot.define do
     end
 
     trait :with_notes do
-      after(:create) { |project| create_list(:note, 5, project: project) }
+      after(:create) { |project| create_list(:note, 5, project:) }
     end
   end
 end
